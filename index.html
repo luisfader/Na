@@ -328,7 +328,7 @@ env.onclick=()=>{if(env.classList.contains('open'))return;env.classList.add('ope
 
 
 /* música */
-const SONGS=[{f:'enamorada',t:'Enamorada'},{f:'tu-silencio',t:'Tu silencio'}];
+const SONGS=[{f:'enamorada',t:'Enamorada'},{f:'tu-silencio',t:'Tu silencio'},{f:'castillos-de-amor',t:'Castillos de amor'}];
 const au=document.getElementById('au'),pl=document.getElementById('player'),ppb=document.getElementById('pp');
 let ti=0;
 function load(i){ti=(i+SONGS.length)%SONGS.length;au.src='music/'+SONGS[ti].f+'.mp3';
